@@ -1,3 +1,12 @@
+/*
+  Example:
+
+  <div class="media">
+    <div class="media__image"></div>
+    <div class="media__body"></div>
+  </div>
+*/
+
 %media,
 .media {
   @extend %clearfix;
