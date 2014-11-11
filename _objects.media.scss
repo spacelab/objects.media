@@ -1,0 +1,30 @@
+%media,
+.media {
+  @extend %clearfix;
+
+  display: block;
+}
+
+%media__image,
+.media__image {
+  float: left;
+}
+
+%media__image--alternate,
+.media__image--alternate {
+  float: right;
+}
+
+%media__body,
+.media__body {
+  display: block;
+
+  overflow: hidden;
+}
+
+%media__body--alternate,
+.media__body--alternate {
+  display: block;
+
+  overflow: visible;
+}
