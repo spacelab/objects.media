@@ -20,5 +20,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "spacelab-objects.clearfix": "spacelab/ojects.clearfix"
+  }
 }
