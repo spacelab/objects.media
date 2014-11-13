@@ -1,12 +1,3 @@
-/*
-  Example:
-
-  <div class="media">
-    <div class="media__image"></div>
-    <div class="media__body"></div>
-  </div>
-*/
-
 %media,
 .media {
   @extend %clearfix;
@@ -17,11 +8,55 @@
 %media__image,
 .media__image {
   float: left;
+
+  margin-right: rem($spacing-unit);
+
+  #media--half > &,
+  .media--half > & {
+    margin-right: rem($spacing-unit--half);
+  }
+
+  #media--quarter > &,
+  .media--quarter > & {
+    margin-right: rem($spacing-unit--quarter);
+  }
+
+  #media--double > &,
+  .media--double > & {
+    margin-right: rem($spacing-unit--double);
+  }
+
+  #media--quadruple > &,
+  .media--quadruple > & {
+    margin-right: rem($spacing-unit--quadruple);
+  }
 }
 
 %media__image--alternate,
 .media__image--alternate {
   float: right;
+
+  margin-left: rem($spacing-unit);
+
+  #media--half > &,
+  .media--half > & {
+    margin-left: rem($spacing-unit--half);
+  }
+
+  #media--quarter > &,
+  .media--quarter > & {
+    margin-left: rem($spacing-unit--quarter);
+  }
+
+  #media--double > &,
+  .media--double > & {
+    margin-left: rem($spacing-unit--double);
+  }
+
+  #media--quadruple > &,
+  .media--quadruple > & {
+    margin-left: rem($spacing-unit--quadruple);
+  }
 }
 
 %media__body,
@@ -29,11 +64,4 @@
   display: block;
 
   overflow: hidden;
-}
-
-%media__body--alternate,
-.media__body--alternate {
-  display: block;
-
-  overflow: visible;
 }
