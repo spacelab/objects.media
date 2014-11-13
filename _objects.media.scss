@@ -1,3 +1,10 @@
+$media-spacing:             $base-spacing !default;
+
+$media-spacing--quarter:    $media-spacing / 4 !default;
+$media-spacing--half:       $media-spacing / 2 !default;
+$media-spacing--double:     $media-spacing * 2 !default;
+$media-spacing--quadruple:  $media-spacing * 4 !default;
+
 %media,
 .media {
   @extend %clearfix;
@@ -9,26 +16,26 @@
 .media__image {
   float: left;
 
-  margin-right: rem($spacing-unit);
+  margin-right: rem($media-spacing);
 
   #media--half > &,
   .media--half > & {
-    margin-right: rem($spacing-unit--half);
+    margin-right: rem($media-spacing--half);
   }
 
   #media--quarter > &,
   .media--quarter > & {
-    margin-right: rem($spacing-unit--quarter);
+    margin-right: rem($media-spacing--quarter);
   }
 
   #media--double > &,
   .media--double > & {
-    margin-right: rem($spacing-unit--double);
+    margin-right: rem($media-spacing--double);
   }
 
   #media--quadruple > &,
   .media--quadruple > & {
-    margin-right: rem($spacing-unit--quadruple);
+    margin-right: rem($media-spacing--quadruple);
   }
 }
 
@@ -36,26 +43,26 @@
 .media__image--alternate {
   float: right;
 
-  margin-left: rem($spacing-unit);
+  margin-left: rem($media-spacing);
 
   #media--half > &,
   .media--half > & {
-    margin-left: rem($spacing-unit--half);
+    margin-left: rem($media-spacing--half);
   }
 
   #media--quarter > &,
   .media--quarter > & {
-    margin-left: rem($spacing-unit--quarter);
+    margin-left: rem($media-spacing--quarter);
   }
 
   #media--double > &,
   .media--double > & {
-    margin-left: rem($spacing-unit--double);
+    margin-left: rem($media-spacing--double);
   }
 
   #media--quadruple > &,
   .media--quadruple > & {
-    margin-left: rem($spacing-unit--quadruple);
+    margin-left: rem($media-spacing--quadruple);
   }
 }
 

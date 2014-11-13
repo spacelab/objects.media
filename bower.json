@@ -23,6 +23,6 @@
   ],
   "dependencies": {
     "spacelab-objects.clearfix": "spacelab/objects.clearfix",
-    "spacelab-objects.spacing": "spacelab/objects.spacing"
+    "spacelab-settings.defaults": "spacelab/settings.defaults"
   }
 }
