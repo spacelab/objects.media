@@ -18,22 +18,22 @@ $media-spacing--quadruple:  $media-spacing * 4 !default;
 
   margin-right: rem($media-spacing);
 
-  #media--half > &,
+  %media--half > &,
   .media--half > & {
     margin-right: rem($media-spacing--half);
   }
 
-  #media--quarter > &,
+  %media--quarter > &,
   .media--quarter > & {
     margin-right: rem($media-spacing--quarter);
   }
 
-  #media--double > &,
+  %media--double > &,
   .media--double > & {
     margin-right: rem($media-spacing--double);
   }
 
-  #media--quadruple > &,
+  %media--quadruple > &,
   .media--quadruple > & {
     margin-right: rem($media-spacing--quadruple);
   }
@@ -45,22 +45,22 @@ $media-spacing--quadruple:  $media-spacing * 4 !default;
 
   margin-left: rem($media-spacing);
 
-  #media--half > &,
+  %media--half > &,
   .media--half > & {
     margin-left: rem($media-spacing--half);
   }
 
-  #media--quarter > &,
+  %media--quarter > &,
   .media--quarter > & {
     margin-left: rem($media-spacing--quarter);
   }
 
-  #media--double > &,
+  %media--double > &,
   .media--double > & {
     margin-left: rem($media-spacing--double);
   }
 
-  #media--quadruple > &,
+  %media--quadruple > &,
   .media--quadruple > & {
     margin-left: rem($media-spacing--quadruple);
   }
